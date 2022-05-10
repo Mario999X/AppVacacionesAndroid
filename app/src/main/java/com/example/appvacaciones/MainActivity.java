@@ -93,7 +93,6 @@ public class MainActivity extends AppCompatActivity {
             intent.putExtra("pais", casaList.get(posicion).getPais());
             intent.putExtra("precio", casaList.get(posicion).getPrecio());
             startActivity(intent);
-            System.out.println("funciona");
         };
     }
 
